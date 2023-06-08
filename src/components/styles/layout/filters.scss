@@ -1,0 +1,16 @@
+.filters{
+    font-family: "Geologica", sans-serif;
+    background-color: rgb(148, 217, 207);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    };
+};

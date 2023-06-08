@@ -1,0 +1,41 @@
+.footer {
+    background-color: #000000;
+    min-height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+
+    &__div {
+        padding-bottom: 0.5rem;
+
+        .fa-envelope {
+            color: rgb(148, 217, 207);
+            padding-right: 0.3rem;
+        }
+
+        .fa-github-alt {
+            color: rgb(223, 194, 226);
+            padding-right: 0.3rem;
+        }
+
+        .fa-linkedin {
+            color: rgb(235, 235, 190);
+        }
+    }
+
+
+    &__text {
+        color: white;
+        font-size: 0.5rem;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    &__img {
+        width: 8rem;
+    }
+
+}
